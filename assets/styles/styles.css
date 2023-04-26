@@ -1,0 +1,11 @@
+:root{
+    --fundo_prncipal:#1B2226;
+    --fundo-cabecalho:#38434F;
+    --branco-texto:rgba(255, 255, 255, 0.9);
+    --azul-claro:#70B5F9;
+    --texto-escuro:rgba(0, 0, 0, 0.75);
+    --texto-secundario:rgba(255, 255, 255, 0.6);
+    --fonte-principal:'Roboto', sans-serif;
+    --fonte-secundaria: 'Inter', sans-serif;
+
+}
