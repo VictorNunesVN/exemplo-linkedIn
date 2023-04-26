@@ -1,6 +1,8 @@
 :root{
-    --fundo_prncipal:#1B2226;
-    --fundo-cabecalho:#38434F;
+    --fundo_principal:#1B2226;
+    --fundo-cabecalho:#38434F; 
+
+
     --branco-texto:rgba(255, 255, 255, 0.9);
     --azul-claro:#70B5F9;
     --texto-escuro:rgba(0, 0, 0, 0.75);
@@ -8,4 +10,29 @@
     --fonte-principal:'Roboto', sans-serif;
     --fonte-secundaria: 'Inter', sans-serif;
 
+}
+
+.cabecalho{
+    background-color: var(--fundo-cabecalho);
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap:5px;
+    padding:1.25em;
+    margin-left: 150px;
+}
+
+.cabecalho__menu-pesquisa{
+    border-radius: 5px;
+    background-color: #627488;
+}
+.cabecalho__menu-pesquisa::placeholder{
+    background: url("/assets/img/lupa.svg") no-repeat; 
+    
+}
+
+.icones{
+    display: flex;
+    
 }
