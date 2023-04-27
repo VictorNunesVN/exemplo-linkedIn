@@ -60,3 +60,33 @@
     width: 24px;
     height: 24px;
 }
+
+/*section*/
+.pessoal{
+    height: 468;
+    width: 708;
+    margin-left: 154px;
+    /*margin-right:504px para telas de 1440px*/
+    margin-right: 415px;
+    background-color: var(--fundo_principal);
+    border-radius: 2%;
+}
+
+
+.imgPerfilPrincipal{
+    border: 3px solid var(--texto-escuro);
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: 0 70%;
+    height: 160px;
+    width: 160px;
+    margin-left: 23px;
+}
+
+
+.imgPerfil{
+    grid-area:pessoal;
+}
+.pessoal__experiencias{
+    grid-area:xp;
+}
