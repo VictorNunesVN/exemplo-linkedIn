@@ -1,8 +1,6 @@
 :root{
     --fundo_principal:#1B2226;
     --fundo-cabecalho:#38434F; 
-
-
     --branco-texto:rgba(255, 255, 255, 0.9);
     --azul-claro:#70B5F9;
     --texto-escuro:rgba(0, 0, 0, 0.75);
@@ -12,27 +10,53 @@
 
 }
 
+/*header*/
 .cabecalho{
     background-color: var(--fundo-cabecalho);
+    height: 52px;
+    color: var(--branco-texto);
+    font-family: var(--fonte-principal);
 }
 
 .cabecalho__menu{
     display: flex;
     gap:5px;
-    padding:1.25em;
-    margin-left: 150px;
+    padding: 5px;
+    margin-left: 154px;
 }
 
 .cabecalho__menu-pesquisa{
     border-radius: 5px;
     background-color: #627488;
+    width: 280px;
+    padding-left: 10px;
 }
 .cabecalho__menu-pesquisa::placeholder{
     background: url("/assets/img/lupa.svg") no-repeat; 
-    
+    color: var(--branco-texto);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    padding-left:30px;
+    font-size: 14px;
 }
 
 .icones{
     display: flex;
-    
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 200px;
+}
+
+.icones-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--branco-texto);
+    gap:3px
+}
+.icones-menu-img{
+    width: 24px;
+    height: 24px;
 }
